@@ -89,8 +89,6 @@ int main()
 	easy(nameFile);
 	student std1("max", 15, true);
 
-
-
 	fstream obj;
 	obj.open(nameFile, ios::out);
 	if (obj.is_open()) {
